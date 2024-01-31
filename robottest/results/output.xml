@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240122 11:05:41.661" rpa="false" schemaversion="4">
+<suite id="s1" name="Robottest" source="C:\Users\sasit\Desktop\robottest">
+<suite id="s1-s1" name="Robot First" source="C:\Users\sasit\Desktop\robottest\robot_first.robot">
+<test id="s1-s1-t1" name="TS_01 : เปิดหน้าเว็บไซต์" line="18">
+<kw name="Open The Website">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240122 11:05:42.627" level="INFO">Opening browser 'chrome' to base url 'https://www.kbtg.tech'.</msg>
+<status status="PASS" starttime="20240122 11:05:42.626" endtime="20240122 11:05:46.336"/>
+</kw>
+<status status="PASS" starttime="20240122 11:05:42.625" endtime="20240122 11:05:46.336"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240122 11:05:46.336" endtime="20240122 11:05:46.503"/>
+</kw>
+<status status="PASS" starttime="20240122 11:05:42.621" endtime="20240122 11:05:46.504"/>
+</test>
+<status status="PASS" starttime="20240122 11:05:41.740" endtime="20240122 11:05:46.508"/>
+</suite>
+<status status="PASS" starttime="20240122 11:05:41.690" endtime="20240122 11:05:46.517"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robottest">Robottest</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Robot First">Robottest.Robot First</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240122 11:05:41.983" level="WARN">Imported library 'C:\Users\sasit\AppData\Local\Programs\Python\Python312\Lib\sched.py' contains no keywords.</msg>
+</errors>
+</robot>

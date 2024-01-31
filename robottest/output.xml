@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240113 14:22:00.042" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot First" source="C:\Users\sasit\Desktop\robottest\robot_first.robot">
+<test id="s1-t1" name="Demo" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=https://playwright.dev</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240113 14:22:00.381" level="INFO">Opening browser 'chrome' to base url 'https://playwright.dev'.</msg>
+<status status="PASS" starttime="20240113 14:22:00.381" endtime="20240113 14:22:04.429"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC001</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240113 14:22:04.429" endtime="20240113 14:22:04.429"/>
+</kw>
+<status status="PASS" starttime="20240113 14:22:00.381" endtime="20240113 14:22:04.429"/>
+</test>
+<status status="PASS" starttime="20240113 14:22:00.042" endtime="20240113 14:22:04.431"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot First">Robot First</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
